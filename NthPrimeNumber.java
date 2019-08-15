@@ -38,6 +38,12 @@ public static void main(String[] args)
 	   }
 	   count=0;
 	}//end of outer for loop
-	System.out.println(arr[po-1] +" is the "+po+" prime number");	
+	System.out.print("Prime numbers upto "+postion+" postion are :");
+	for(int i=0;i<postion;i++)
+	{
+		System.out.print(arr[i]+" ");
+	}
+	System.out.println("and "+arr[postion-1] +" is the "+postion+" postion in prime numbers");	
+	sc.close();
 }
 }
